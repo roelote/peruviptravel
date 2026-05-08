@@ -1,0 +1,461 @@
+/*!
+Theme Name: Peru Vip Travel 
+Theme URI: https://peruviptravel.com/
+Author: Roel Jhonatan		
+Author URI: https://facebook.com/roelote/
+Description: Tema a medida para Peru Vip Travel
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: peruviptravel
+Tags: tailwindcss 3.06
+*/
+a.glink.gt-current-lang
+{
+	font-weight:500 !important;
+}
+.notranslate img {
+  width: 22px;
+  padding-right: 5px !important;
+}
+.sticky .bg-front {
+    background-color: #fff;
+    border-bottom: 1px solid #f3f4f6;
+    box-shadow: 0px 1px 1px rgb(187, 187, 187);
+}
+.gt-current-lang {
+  display: none;
+}
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.sticky .menu-top {
+    color: #262626 !important;
+}
+
+#nav.sticky {
+    /* height: 95px; */
+    transition: all linear 0.3s;
+}
+
+.header {
+    /* height: 105px; */
+    transition: all linear 0.3s;
+}
+
+.custom-logo {
+    width: 110px;
+    transition: all linear 0.3s;
+}
+
+#nav.sticky .custom-logo {
+    width: 100px;
+    transition: all linear 0.3s;
+}
+.ubermenu-wpml-ls-item
+{
+	display: none !important;
+}
+
+.footer {
+    background-color: #29373E;
+}
+
+.line::after {
+    content: " ";
+    display: block;
+    line-height: 50px;
+    border: 1px solid #d29b2b;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.homes h2::after {
+    content: " ";
+    display: block;
+    line-height: 50px;
+    border: 1px solid #d29b2b;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.menu-transparent .ubermenu-nav>li>a>span {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.menu-transparent .ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator {
+    color: #fff;
+}
+
+.sticky .menu-transparent .ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator {
+    color: #3C3C3C;
+}
+
+.sticky .menu-transparent .ubermenu-nav li a span {
+    color: #3C3C3C;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.ubermenu-nav li a span {
+    color: #3C3C3C;
+    font-family: 'Raleway' !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.main-tour .wp-block-table td {
+    padding: 0.75rem;
+}
+
+.main-tour .wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+    background-color: #d29b2b;
+    color: #fff;
+}
+
+.vert::before {
+    height: 100%;
+    width: 1px;
+    background: #BCBCBC;
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.linef::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #e8ba4a;
+    width: 60%;
+    right: 0px;
+    left: 0px;
+    bottom: -3px;
+    margin: 0 auto;
+}
+
+.text-shadow {
+    text-shadow: 2px 3px 3px #262626;
+}
+
+.wpml-ls-legacy-list-horizontal {
+    border: none !important;
+    padding: 0px !important;
+}
+
+.wpml-ls-legacy-list-vertical a {
+    padding: 0px 10px !important;
+}
+
+.ubermenu-responsive-toggle-fixed {
+    top: 2rem !important;
+}
+
+.top_dest {
+    --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 2.5rem;
+}
+
+.main-tour figcaption {
+    font-size: 16px !important;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.indrevdiv>p img {
+    max-width: 100% !important;
+}
+
+#wprev-slider-1 .wprev_preview_tcolor3_T3 {
+    text-shadow: 0px 0px 0px !important;
+}
+
+.soste::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    width: 60%;
+    right: 0px;
+    left: 0px;
+    bottom: -10px;
+}
+
+.why::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #e8ba4a;
+    width: 40%;
+    right: 0px;
+    left: 0px;
+    bottom: -10px;
+}
+
+.blgline::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #e8ba4a;
+    width: 10%;
+    right: 0px;
+    left: 0px;
+    bottom: -3px;
+}
+
+#toc_container {
+    margin: 1rem 0px !important;
+}
+
+.log {
+    display: none;
+}
+
+.sticky .log1 {
+    display: none;
+}
+
+.sticky .log {
+    display: block;
+}
+
+::marker {
+    color: #e8ba4a;
+
+}
+
+.searchp .is-form-style {
+    width: 350px;
+
+}
+
+.searchp .is-search-icon {
+    width: 65px;
+}
+
+.blog-search .is-form-style {
+    width: 100%;
+}
+
+.searchp .is-form-style input.is-search-submit,
+.searchp .is-search-icon {
+    height: 50px !important;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.titl {
+    font-family: 'Satisfy', cursive;
+
+}
+
+.searchp .is-search-form {
+    display: flex;
+}
+
+.searchp .is-search-icon svg {
+    width: 35px !important;
+}
+
+.searchp .is-search-submit {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.searchp .is-form-style input.is-search-input {
+    height: 50px !important;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#toc_container a {
+    color: #b38c2a;
+    text-decoration: none;
+}
+
+#meet {
+    scroll-margin-top: 3rem;
+}
+
+#menu-item-68 span, #menu-item-5435 span {
+    border: 1px solid #d93;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* .ubermenu-submenu .ubermenu-target
+{
+    padding: 10px 5px !important;
+} */
+.brightness-50 {
+    --tw-brightness: brightness(.7) !important;
+}
+
+/*
+.ubermenu-submenu {
+    background-color: rgba(238, 238, 238, 0.58) !important;
+}
+*/
+.cap {
+    z-index: 9999999;
+    background-color: #f3f4f6;
+    height: 50px;
+}
+
+.main-tour .wp-block-table td {
+    border: 1px solid #d9d9d9;
+}
+
+.ui-state-default {
+    background-color: #e7e1207a !important;
+    background-image: none !important;
+}
+
+.rojov {
+    background-color: #b30000 !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.ubermenu .ubermenu-content-align-center>.ubermenu-image {
+    width: 100% !important;
+}
+
+
+.form {
+    margin: 1rem 0rem !important;
+}
+
+@media (max-width: 640px) {
+
+    .menu-transparent .ubermenu-nav>li>a>span {
+        color: initial;
+        font-family: 'Raleway';
+        font-size: 15px;
+    }
+
+    .menu-transparent .ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator {
+        color: initial;
+    }
+
+    .log {
+        display: block;
+    }
+
+    .log1 {
+        display: none;
+    }
+	.ubermenu-wpml-ls-item
+	{
+		display: inline-block !important;
+	}
+}
+
+@media (max-width: 1200px) {
+
+    .menu-transparent .ubermenu-nav>li>a>span {
+        color: initial;
+        font-family: 'Raleway';
+        font-size: 15px;
+    }
+
+    .menu-transparent .ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target>.ubermenu-sub-indicator {
+        color: initial;
+    }
+
+    .log {
+        display: block;
+    }
+
+    .log1 {
+        display: none;
+    }
+		{
+		display: inline-block !important;
+	}
+}
+
+.mobiles
+{
+    height: 47rem;
+}
+.bg-opacity-30
+{
+    --tw-bg-opacity: 0.3 !important;
+}
+
+.bg-gray-600 
+{
+	background-color:#4b5563;
+}
+
+.gt_selector.notranslate {
+  background-color: transparent;
+}
+
+.gt_selector.notranslate option {
+  color: #888;
+}
+.widget_block {
+  padding: 0px 0px 0px 9px !important;
+}
+
+.reclam h3
+{
+	font-size: 1.5rem;
+  color: #313131;
+}
+.reclam  select
+{
+	width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.btn-recl
+{
+	background-color:#d29b2b !important;
+	color: white;
+  padding: 5px 60px;
+  border-radius: 10PX;
+	cursor: pointer;
+}
+
+.partners .swiper-slide {
+  display: flex;
+  align-items: center;      /* centra vertical */
+  justify-content: center;  /* centra horizontal */
+	height:75px;
+}
+
+.partners .swiper-slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+

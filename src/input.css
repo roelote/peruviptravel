@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abel&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Abel !important;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  p,
+  .advgb-tab-body p {
+    @apply mt-3 font-abel text-gray-700;
+  }
+
+  .wp-block-gallery {
+    @apply mt-4;
+  }
+}
+
+@layer components {
+
+  /* ─── Typography: section headings ─── */
+
+  .main-tour h2,
+  .destiny h2,
+  .plan h2 {
+    @apply mt-4 py-3 font-raleway text-xl font-semibold uppercase text-gray-700;
+  }
+
+  .main-tour h3 {
+    @apply py-3 font-raleway text-lg font-semibold uppercase text-gray-700;
+  }
+
+  .destiny h2,
+  .plan h2 {
+    @apply mx-auto my-5 table;
+  }
+
+  .lines {
+    @apply mx-auto mb-4 table;
+  }
+
+  .destiny p {
+    font-style: italic;
+  }
+
+  .main-tour .wp-block-table table {
+    @apply border border-gray-300;
+    border-collapse: collapse;
+  }
+
+  .homes h2 {
+    @apply mx-auto mb-4 table text-center font-raleway text-2xl font-medium uppercase text-gray-600;
+  }
+
+  .about h2 {
+    @apply relative mb-8 font-raleway text-2xl font-medium uppercase text-gray-600;
+  }
+
+  .blog-post h2 {
+    @apply my-2 font-raleway text-lg font-medium uppercase text-gray-600;
+  }
+
+  .blog-post .wp-block-image {
+    @apply mt-4;
+  }
+
+  .blog-post a {
+    @apply text-peruvip-500 transition delay-100;
+  }
+
+  .blog-post a:hover {
+    @apply text-red-500;
+  }
+
+  /* ─── Forms: main wrapper ─── */
+
+  .form {
+    @apply m-10;
+  }
+
+  .border-form {
+    @apply rounded border border-gray-300 p-5 shadow-xl;
+  }
+
+  .flex-form {
+    @apply flex flex-wrap overflow-hidden;
+    @apply lg:-mx-1 xl:-mx-3;
+  }
+
+  .colum-form {
+    @apply relative w-full overflow-hidden;
+    @apply lg:my-1 lg:w-full lg:px-5;
+    @apply xl:my-3 xl:w-1/2 xl:px-10;
+  }
+
+  .title-form {
+    @apply mb-5 block font-raleway text-xl font-medium text-gray-900;
+  }
+
+  .box-form {
+    @apply relative z-0 mb-4 w-full;
+  }
+
+  .box-form input {
+    @apply block w-full appearance-none border-0 border-b border-gray-400 bg-transparent py-2.5 pl-0 pr-0 text-base text-gray-900;
+  }
+
+  .box-form input:focus {
+    @apply border-peruvip-600 outline-none ring-0;
+  }
+
+  .box-form label {
+    @apply absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 text-base text-gray-500 duration-300;
+  }
+
+  .peer:placeholder-shown ~ .box-form label {
+    @apply translate-y-0 scale-100;
+  }
+
+  .peer:focus ~ .box-form label {
+    @apply left-0 -translate-y-6 scale-75 font-medium text-peruvip-600;
+  }
+
+  .box-form select {
+    @apply w-full appearance-none border border-gray-400 bg-white px-2 text-gray-600;
+  }
+
+  .box-form select:focus {
+    @apply border-peruvip-600 outline-none ring-0;
+  }
+
+  .form .labels {
+    @apply mb-1 block text-gray-700;
+  }
+
+  .form .grid4 {
+    @apply my-2 grid grid-cols-4 gap-3;
+  }
+
+  .grid4 select,
+  .grid4 input {
+    @apply w-full appearance-none border border-gray-400 bg-white px-1 text-gray-700;
+  }
+
+  .grid4 select:focus,
+  .grid4 input:focus {
+    @apply border-peruvip-600 outline-none ring-0;
+  }
+
+  .form .wpcf7-checkbox {
+    @apply mb-5 grid grid-cols-3 gap-2;
+  }
+
+  .form .boxs-form input,
+  .form .boxs-form textarea {
+    @apply w-full appearance-none border border-gray-400 px-2 text-gray-600;
+  }
+
+  .form .boxs-form input:focus,
+  .form .boxs-form textarea:focus {
+    @apply border-peruvip-600 outline-none ring-0;
+  }
+
+  .form .m2 {
+    @apply w-full lg:w-1/2;
+  }
+
+  .form .m2 label {
+    @apply mb-1 ml-3 mt-2 block font-raleway font-medium text-gray-800;
+  }
+
+  .form .wpcf7-radio {
+    @apply flex flex-col;
+  }
+
+  .form .sends {
+    @apply mt-4 inline-block cursor-pointer rounded-sm bg-peruvip-500 px-10 py-2 font-medium text-white transition delay-200;
+  }
+
+  .form .sends:hover {
+    @apply bg-gray-700;
+  }
+
+  /* ─── Ofert inline form ─── */
+
+  .ofert input {
+    @apply appearance-none rounded-l-sm border px-2 leading-tight text-gray-700 shadow;
+  }
+
+  .ofert input:focus {
+    @apply outline-none;
+  }
+
+  .ofert .wpcf7-email {
+    @apply w-48 py-1.5;
+  }
+
+  .ofert .wpcf7-submit {
+    cursor: pointer !important;
+    @apply text-white;
+  }
+
+  /* ─── Form catalog ─── */
+
+  .form-cat {
+    @apply rounded-lg border border-gray-300 shadow-xl;
+  }
+
+  .form-cat .bg-form {
+    @apply rounded-t-lg bg-peruvip-400 p-2 text-center text-white;
+  }
+
+  .form-cat .text-cat {
+    @apply block text-center text-2xl text-white;
+  }
+
+  .form-cat .border-cat {
+    @apply border-gray-300 px-4 py-2;
+  }
+
+  .form-cat .items {
+    @apply my-3 block;
+  }
+
+  .items input {
+    @apply w-full appearance-none rounded border border-gray-300 bg-gray-100 px-2 py-1 text-sm text-gray-700;
+  }
+
+  .items input:focus {
+    @apply border-peruvip-400 outline-none ring-0;
+  }
+
+  .form-cat .g2 {
+    @apply my-3 grid grid-cols-2 gap-3;
+  }
+
+  .form-cat .g3 {
+    @apply my-3 grid grid-cols-3 gap-3;
+  }
+
+  .form-cat label {
+    @apply block text-sm text-gray-600;
+  }
+
+  .g2 input,
+  .form-cat textarea {
+    @apply w-full appearance-none rounded border border-gray-300 bg-gray-100 px-2 py-1 text-sm text-gray-600;
+  }
+
+  .g2 input:focus,
+  .form-cat textarea:focus {
+    @apply border-peruvip-400 outline-none ring-0;
+  }
+
+  .g3 select {
+    @apply w-full appearance-none rounded border border-gray-300 bg-gray-100 py-1 text-center text-sm text-gray-600;
+  }
+
+  .g3 select:focus {
+    @apply border-peruvip-600 outline-none ring-0;
+  }
+
+  .form-cat .btn-cat {
+    @apply mt-4 inline-block cursor-pointer rounded bg-gray-500 px-10 py-1 font-medium text-white;
+  }
+
+  .form-cat .btn-cat:hover {
+    @apply bg-gray-400;
+  }
+
+  /* ─── Misc ─── */
+
+  .wpcf7-spinner {
+    display: none;
+  }
+
+  /* ─── Blog grid: first and last child span 2 cols at xl ─── */
+
+  @screen xl {
+    .grid-blog div:first-child,
+    .grid-blog div:last-child {
+      @apply col-span-2;
+    }
+  }
+}

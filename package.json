@@ -1,0 +1,13 @@
+{
+  "name": "peruviptravel",
+  "version": "1.0.0",
+  "description": "PeruVIP Travel - WordPress Theme with Tailwind CSS CLI",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./css/theme.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./css/theme.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
